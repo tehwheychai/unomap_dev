@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.0"
+    defaultConfig {
+        applicationId "com.unomap.unomap01"
+        minSdkVersion 23
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
+}
+
+dependencies {
+    def uploadServiceVersion="3.4.1"
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.google.android.gms:play-services:10.2.0'
+    compile 'com.google.android.gms:play-services-vision:9.0.0'
+    compile 'com.android.support:multidex:1.0.0'
+    //noinspection GradleCompatible
+    compile 'com.android.support:appcompat-v7:26.0.0'
+    compile 'com.android.support:cardview-v7:26.0.0'
+    compile 'com.android.support:design:26.0.0'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'org.apache.httpcomponents:httpcore:4.4.1'
+    compile 'org.apache.httpcomponents:httpclient:4.5'
+    compile 'com.android.support:recyclerview-v7:26.0.0'
+    compile 'net.gotev:uploadservice:3.4.1+'
+    compile 'com.github.lukedeighton:wheelview:0.4.1'
+    compile 'com.github.danylovolokh:LondonEyeLayoutManager:1fb6469521'
+    compile 'uk.co.chrisjenx:calligraphy:2.2.0'
+    compile 'me.srodrigo:androidhintspinner:1.0.0'
+}
+
+configurations.all{
+    resolutionStrategy.eachDependency{
+        DependencyResolveDetails details ->
+            def requested=details.requested
+            if(requested.group=='com.android.support'){
+               if(!requested.name.startsWith("multidex")){
+                details.useVersion('25.3.1')
+            }
+    }
+}
+}
