@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Guest.Diego\.android\build-cache\649cf50b768e8406d3feac6678ac170a601d4238\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2df3ec030275f4d1f940012b325bbd6fdc46d598">
+        <dex dex="C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b9702c199b6300fd9fe0dde16e76359e0b96a7d0\classes.dex" />
+    </item>
+
+</items>
