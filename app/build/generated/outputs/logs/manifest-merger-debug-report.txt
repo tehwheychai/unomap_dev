@@ -1,0 +1,542 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:2:1-67:12
+	package
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:4:5-73
+	android:name
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:4:22-71
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [net.gotev:uploadservice:3.4.1] C:\Users\Guest.Diego\.android\build-cache\0dc1298abcde22fd89a2f8239db526e8d934a967\output\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:7:5-80
+MERGED from [net.gotev:uploadservice:3.4.1] C:\Users\Guest.Diego\.android\build-cache\0dc1298abcde22fd89a2f8239db526e8d934a967\output\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:7:22-78
+application
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:8:5-49:19
+MERGED from [com.google.android.gms:play-services:10.2.0] C:\Users\Guest.Diego\.android\build-cache\09ece05a4235d7c014d3632b81831b8af3d5a929\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Guest.Diego\.android\build-cache\d656852003b9ebe7cdf62a854468bd0c7b7a647d\output\AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6d2e84932a4eb5b09cd6cdf4094e80ac9375f22c\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Guest.Diego\.android\build-cache\1a79d00428c26279f0b4db83302730130673af8c\output\AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Guest.Diego\.android\build-cache\2eb6dbdb6818380b13ef6656c781f7e4b797a5bc\output\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\Users\Guest.Diego\.android\build-cache\099b652eff3ac8caf747de3df0eae2852afd20f2\output\AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:10.2.0] C:\Users\Guest.Diego\.android\build-cache\96393dbbaf8ff5af21eec5aedd7e37391232faa7\output\AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:25.3.1] C:\Users\Guest.Diego\.android\build-cache\abec870ce9f4ba651367538c6b093fbf72c36e90\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:palette-v7:25.3.1] C:\Users\Guest.Diego\.android\build-cache\d44bc3cd160c4ccacf7f7625f5923300989fdeac\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.0] C:\Users\Guest.Diego\.android\build-cache\b74f4e9d9478190eae0d5c7b215e86c5d7f4f744\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:10.2.0] C:\Users\Guest.Diego\.android\build-cache\4e16557dd59eb2ea890dfa3faa57567a72f62390\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:10.2.0] C:\Users\Guest.Diego\.android\build-cache\d46a6935b3d8dd366203a7e3979075b41d8ccbd6\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-crash:10.2.0] C:\Users\Guest.Diego\.android\build-cache\e206fa87f0502ec4bee97aff8c8b0528d272a4fb\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth:10.2.0] C:\Users\Guest.Diego\.android\build-cache\abd63863eb1e31d654fa876c69f6a64d2c29e00f\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Guest.Diego\.android\build-cache\b6c88dcae6537ada732ebc512d84115fb0dc3707\output\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-fitness:10.2.0] C:\Users\Guest.Diego\.android\build-cache\17f54b7a115d54ced5438770087a2da8d82e8e7d\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:10.2.0] C:\Users\Guest.Diego\.android\build-cache\93b625e12960b1a057188baf89b304b4c9c841e1\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7f695583ac2075b0985e258b88507b37530f87e7\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6f3500cf14815751dfc013cabae5ed050bfb63af\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\Guest.Diego\.android\build-cache\c5101e1bf2acc0255585db6ea027b8c971b9cf23\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:10.2.0] C:\Users\Guest.Diego\.android\build-cache\8ef1ec3400bfc0cc516087b81456b29fc3862afd\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\0efc98ffa95742fbfd0aac6e5c7dec4e8b9ba128\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:10.2.0] C:\Users\Guest.Diego\.android\build-cache\ff0d39a119a4cd7101e8cff4e4b820dda8b57004\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-nearby:10.2.0] C:\Users\Guest.Diego\.android\build-cache\c25fad67784bfacef8e1a9dcab70c4e8715edd79\output\AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:10.2.0] C:\Users\Guest.Diego\.android\build-cache\d168eebfc12aadccbfe7fcfeffa5bd7889a3f591\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:10.2.0] C:\Users\Guest.Diego\.android\build-cache\22f96479a96aaf5bfc414b88a87b3066201b5479\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:10.2.0] C:\Users\Guest.Diego\.android\build-cache\dde0db8700abed97c4ff3ce5ddda7035e185d7be\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:10.2.0] C:\Users\Guest.Diego\.android\build-cache\315ed2323c5d86bec8fabac9bd4fca35d9abefc7\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Guest.Diego\.android\build-cache\11c584bfa2e4e77a72ee6fb28e8834524c154dc1\output\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6c6888de61a23711f991c517314e1478a62a7aff\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\Guest.Diego\.android\build-cache\f2d0631e7fa41200f60d98cd07ce105b220cb9a7\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:10.2.0] C:\Users\Guest.Diego\.android\build-cache\e5a126ae257471a3804f83c1983f46564121b021\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.0] C:\Users\Guest.Diego\.android\build-cache\afa725954eca14d75232afe30b82622a0ed7831a\output\AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] C:\Users\Guest.Diego\.android\build-cache\489b49f107a84f779f0936ac4838068bc5ffd4fb\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-identity:10.2.0] C:\Users\Guest.Diego\.android\build-cache\cccabd4bb23bea427b04c08efa093113777abde9\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Guest.Diego\.android\build-cache\28eef7389058ab9cde1b1a38690994e651f8cf5d\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-wearable:10.2.0] C:\Users\Guest.Diego\.android\build-cache\de6391ce70ee339df09b2e26f741c6127373f6f8\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-vision:10.2.0] C:\Users\Guest.Diego\.android\build-cache\e3ef53a086a7ae7a8b25ee40c92d7b6c8dd0e3d0\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Guest.Diego\.android\build-cache\1d4d61d21581cac72acd6f8ad3bcd1956ae39ab2\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] C:\Users\Guest.Diego\.android\build-cache\1dca92b4dc23e110f2906ae08c1ceaee335f5261\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Guest.Diego\.android\build-cache\dd837addf2404ae60e4b7894027d0e02ddfbbdf4\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Guest.Diego\.android\build-cache\58b3131e3412b378ec5e75bb70895c8a10387ef6\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\Guest.Diego\.android\build-cache\228154585d2cd48d52197a67f468df72c8b9f44a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Guest.Diego\.android\build-cache\29cbadbd3c56ce93c9569cbc02933de7ef0596b0\output\AndroidManifest.xml:26:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Guest.Diego\.android\build-cache\ba60b52b7c9f6060f56c252a27cb16ffa0c2ee2e\output\AndroidManifest.xml:9:5-20
+MERGED from [net.gotev:uploadservice:3.4.1] C:\Users\Guest.Diego\.android\build-cache\0dc1298abcde22fd89a2f8239db526e8d934a967\output\AndroidManifest.xml:16:5-22:19
+MERGED from [com.github.lukedeighton:wheelview:0.4.1] C:\Users\Guest.Diego\.android\build-cache\000a2459a0c0c67a8df87e570f97f96e30824197\output\AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.danylovolokh:LondonEyeLayoutManager:1fb6469521] C:\Users\Guest.Diego\.android\build-cache\bb2cf4dbef5011db5dc731bff2b26ebacadddc82\output\AndroidManifest.xml:11:5-12:19
+MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] C:\Users\Guest.Diego\.android\build-cache\609edbfd96901d4c289f7d61aa19829da992c639\output\AndroidManifest.xml:11:5-20
+MERGED from [me.srodrigo:androidhintspinner:1.0.0] C:\Users\Guest.Diego\.android\build-cache\649cf50b768e8406d3feac6678ac170a601d4238\output\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Guest.Diego\.android\build-cache\ed3346a256f18cb3781a03bff22d41fb4cad3f63\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Guest.Diego\.android\build-cache\77f11d1744b50468d45a79656baea24a7d4a069a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Guest.Diego\.android\build-cache\6ae4fb227578a02d13b019e3c695493fc3ee8c2b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Guest.Diego\.android\build-cache\fb58100df20d618bd72c76b3086d5c35a2ec7a77\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Guest.Diego\.android\build-cache\808720fdb78086278c35ef912d55bbb858197fca\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Guest.Diego\.android\build-cache\0c38863fc9d555770fa898c2d052224b75944332\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Guest.Diego\.android\build-cache\644d5f75d6cdf3facedcc817f6c7470b9575fff4\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Guest.Diego\.android\build-cache\31f61700a1071cb946f2bdf044631e8c9b72ec31\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Guest.Diego\.android\build-cache\8b03468d344fb0915159d0b00ee2a35e9475c342\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:11:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:13:9-35
+	android:roundIcon
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:12:9-54
+	android:allowBackup
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:10:9-47
+	android:theme
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.example.wuikhong.unomap.MainActivityUnomap
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:15:9-29:20
+	android:name
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:15:19-53
+intent-filter#android.intent.action.MAIN+android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT+android.intent.category.DEFAULT
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:16:13-28:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:19:17-76
+	android:name
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:19:27-73
+action#android.intent.action.VIEW
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:22:17-78
+	android:name
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:22:27-75
+data
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:24:17-47
+	android:scheme
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:24:23-44
+activity#com.example.wuikhong.unomap.Splash
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:30:9-36:20
+	android:label
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:31:13-45
+	android:name
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:30:19-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:32:13-35:29
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:34:17-76
+	android:name
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:34:27-74
+activity#com.example.wuikhong.unomap.Sign_up_page
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:38:9-49
+	android:name
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:38:19-47
+activity#com.example.wuikhong.unomap.FingerprintActivity
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:39:9-56
+	android:name
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:39:19-54
+activity#com.example.wuikhong.unomap.UserPage
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:40:9-45
+	android:name
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:40:19-43
+activity#com.example.wuikhong.unomap.AddID
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:41:9-42
+	android:name
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:41:19-40
+activity#com.example.wuikhong.unomap.IdList
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:42:9-43
+	android:name
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:42:19-41
+activity#com.example.wuikhong.unomap.WVclass
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:43:9-44
+	android:name
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:43:19-42
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:51:5-83
+	android:required
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:51:58-81
+	android:name
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:51:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:53:5-94
+	android:required
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:53:68-92
+	android:name
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:53:19-67
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:55:5-64
+	android:name
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:55:22-62
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:57:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Guest.Diego\.android\build-cache\d656852003b9ebe7cdf62a854468bd0c7b7a647d\output\AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6d2e84932a4eb5b09cd6cdf4094e80ac9375f22c\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Guest.Diego\.android\build-cache\1a79d00428c26279f0b4db83302730130673af8c\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:10.2.0] C:\Users\Guest.Diego\.android\build-cache\e206fa87f0502ec4bee97aff8c8b0528d272a4fb\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\Guest.Diego\.android\build-cache\c5101e1bf2acc0255585db6ea027b8c971b9cf23\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\0efc98ffa95742fbfd0aac6e5c7dec4e8b9ba128\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Guest.Diego\.android\build-cache\11c584bfa2e4e77a72ee6fb28e8834524c154dc1\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6c6888de61a23711f991c517314e1478a62a7aff\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\Guest.Diego\.android\build-cache\f2d0631e7fa41200f60d98cd07ce105b220cb9a7\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] C:\Users\Guest.Diego\.android\build-cache\489b49f107a84f779f0936ac4838068bc5ffd4fb\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Guest.Diego\.android\build-cache\28eef7389058ab9cde1b1a38690994e651f8cf5d\output\AndroidManifest.xml:20:5-66
+MERGED from [net.gotev:uploadservice:3.4.1] C:\Users\Guest.Diego\.android\build-cache\0dc1298abcde22fd89a2f8239db526e8d934a967\output\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:57:22-64
+meta-data#com.google.android.gms.vision.DEPENDENCIES
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:59:5-110
+	android:value
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:59:74-97
+	android:name
+		ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:59:16-73
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml:60:5-65:21
+uses-sdk
+INJECTED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.android.gms:play-services:10.2.0] C:\Users\Guest.Diego\.android\build-cache\09ece05a4235d7c014d3632b81831b8af3d5a929\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads:10.2.0] C:\Users\Guest.Diego\.android\build-cache\f61154a368bd9b46e6f9a14b82dd852872d58464\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Guest.Diego\.android\build-cache\d656852003b9ebe7cdf62a854468bd0c7b7a647d\output\AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6d2e84932a4eb5b09cd6cdf4094e80ac9375f22c\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Guest.Diego\.android\build-cache\1a79d00428c26279f0b4db83302730130673af8c\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Guest.Diego\.android\build-cache\2eb6dbdb6818380b13ef6656c781f7e4b797a5bc\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:10.2.0] C:\Users\Guest.Diego\.android\build-cache\a59a59a18a71afee1d861c7e61707dfafe9b5936\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\Users\Guest.Diego\.android\build-cache\099b652eff3ac8caf747de3df0eae2852afd20f2\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:10.2.0] C:\Users\Guest.Diego\.android\build-cache\96393dbbaf8ff5af21eec5aedd7e37391232faa7\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:mediarouter-v7:25.3.1] C:\Users\Guest.Diego\.android\build-cache\abec870ce9f4ba651367538c6b093fbf72c36e90\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:25.3.1] C:\Users\Guest.Diego\.android\build-cache\d44bc3cd160c4ccacf7f7625f5923300989fdeac\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.0] C:\Users\Guest.Diego\.android\build-cache\b74f4e9d9478190eae0d5c7b215e86c5d7f4f744\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:10.2.0] C:\Users\Guest.Diego\.android\build-cache\4e16557dd59eb2ea890dfa3faa57567a72f62390\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:10.2.0] C:\Users\Guest.Diego\.android\build-cache\d46a6935b3d8dd366203a7e3979075b41d8ccbd6\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:10.2.0] C:\Users\Guest.Diego\.android\build-cache\e206fa87f0502ec4bee97aff8c8b0528d272a4fb\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-auth:10.2.0] C:\Users\Guest.Diego\.android\build-cache\abd63863eb1e31d654fa876c69f6a64d2c29e00f\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database:10.2.0] C:\Users\Guest.Diego\.android\build-cache\2955484d87705af2e2967e3262513e93e5ccf830\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:10.2.0] C:\Users\Guest.Diego\.android\build-cache\90d6a740a11d419230a38b239a88d8dc000a42de\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Guest.Diego\.android\build-cache\b6c88dcae6537ada732ebc512d84115fb0dc3707\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage:10.2.0] C:\Users\Guest.Diego\.android\build-cache\75511cdba315ea7b6b7dca7f052a5ebdcc961ae6\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:10.2.0] C:\Users\Guest.Diego\.android\build-cache\aa70c9851d3a3af678c4d7e1a552a7fc7030ec2e\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-fitness:10.2.0] C:\Users\Guest.Diego\.android\build-cache\17f54b7a115d54ced5438770087a2da8d82e8e7d\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:10.2.0] C:\Users\Guest.Diego\.android\build-cache\93b625e12960b1a057188baf89b304b4c9c841e1\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7f695583ac2075b0985e258b88507b37530f87e7\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gass:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6f3500cf14815751dfc013cabae5ed050bfb63af\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\Guest.Diego\.android\build-cache\c5101e1bf2acc0255585db6ea027b8c971b9cf23\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:10.2.0] C:\Users\Guest.Diego\.android\build-cache\8ef1ec3400bfc0cc516087b81456b29fc3862afd\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\0efc98ffa95742fbfd0aac6e5c7dec4e8b9ba128\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:10.2.0] C:\Users\Guest.Diego\.android\build-cache\202c09aff1d2630e702c641adcbcc95a89698912\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:10.2.0] C:\Users\Guest.Diego\.android\build-cache\ff0d39a119a4cd7101e8cff4e4b820dda8b57004\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:10.2.0] C:\Users\Guest.Diego\.android\build-cache\c25fad67784bfacef8e1a9dcab70c4e8715edd79\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-panorama:10.2.0] C:\Users\Guest.Diego\.android\build-cache\d168eebfc12aadccbfe7fcfeffa5bd7889a3f591\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:10.2.0] C:\Users\Guest.Diego\.android\build-cache\22f96479a96aaf5bfc414b88a87b3066201b5479\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:10.2.0] C:\Users\Guest.Diego\.android\build-cache\dde0db8700abed97c4ff3ce5ddda7035e185d7be\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:10.2.0] C:\Users\Guest.Diego\.android\build-cache\315ed2323c5d86bec8fabac9bd4fca35d9abefc7\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:10.2.0] C:\Users\Guest.Diego\.android\build-cache\19f364d257b2dda3f8cda1b5d7456ad820762c49\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Guest.Diego\.android\build-cache\11c584bfa2e4e77a72ee6fb28e8834524c154dc1\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6c6888de61a23711f991c517314e1478a62a7aff\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\Guest.Diego\.android\build-cache\f2d0631e7fa41200f60d98cd07ce105b220cb9a7\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.0] C:\Users\Guest.Diego\.android\build-cache\e5a126ae257471a3804f83c1983f46564121b021\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.0] C:\Users\Guest.Diego\.android\build-cache\afa725954eca14d75232afe30b82622a0ed7831a\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] C:\Users\Guest.Diego\.android\build-cache\489b49f107a84f779f0936ac4838068bc5ffd4fb\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wallet:10.2.0] C:\Users\Guest.Diego\.android\build-cache\c021357c3d92c2891e9f6b982eef71cd1e7d54cb\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-identity:10.2.0] C:\Users\Guest.Diego\.android\build-cache\cccabd4bb23bea427b04c08efa093113777abde9\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Guest.Diego\.android\build-cache\28eef7389058ab9cde1b1a38690994e651f8cf5d\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-wearable:10.2.0] C:\Users\Guest.Diego\.android\build-cache\de6391ce70ee339df09b2e26f741c6127373f6f8\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-vision:10.2.0] C:\Users\Guest.Diego\.android\build-cache\e3ef53a086a7ae7a8b25ee40c92d7b6c8dd0e3d0\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Guest.Diego\.android\build-cache\1d4d61d21581cac72acd6f8ad3bcd1956ae39ab2\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] C:\Users\Guest.Diego\.android\build-cache\1dca92b4dc23e110f2906ae08c1ceaee335f5261\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Guest.Diego\.android\build-cache\dd837addf2404ae60e4b7894027d0e02ddfbbdf4\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:multidex:1.0.0] C:\Users\Guest.Diego\.android\build-cache\95a4dadafa73aed51a1ecc6be00899d5d43a158e\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Guest.Diego\.android\build-cache\58b3131e3412b378ec5e75bb70895c8a10387ef6\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:25.3.1] C:\Users\Guest.Diego\.android\build-cache\228154585d2cd48d52197a67f468df72c8b9f44a\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Guest.Diego\.android\build-cache\29cbadbd3c56ce93c9569cbc02933de7ef0596b0\output\AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Guest.Diego\.android\build-cache\ba60b52b7c9f6060f56c252a27cb16ffa0c2ee2e\output\AndroidManifest.xml:5:5-7:41
+MERGED from [net.gotev:uploadservice:3.4.1] C:\Users\Guest.Diego\.android\build-cache\0dc1298abcde22fd89a2f8239db526e8d934a967\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lukedeighton:wheelview:0.4.1] C:\Users\Guest.Diego\.android\build-cache\000a2459a0c0c67a8df87e570f97f96e30824197\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.danylovolokh:LondonEyeLayoutManager:1fb6469521] C:\Users\Guest.Diego\.android\build-cache\bb2cf4dbef5011db5dc731bff2b26ebacadddc82\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Guest.Diego\.android\build-cache\7dd27211f85c5686fd8d2cdcc4978fa567c13236\output\AndroidManifest.xml:20:5-43
+MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] C:\Users\Guest.Diego\.android\build-cache\609edbfd96901d4c289f7d61aa19829da992c639\output\AndroidManifest.xml:7:5-9:41
+MERGED from [me.srodrigo:androidhintspinner:1.0.0] C:\Users\Guest.Diego\.android\build-cache\649cf50b768e8406d3feac6678ac170a601d4238\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Guest.Diego\.android\build-cache\ed3346a256f18cb3781a03bff22d41fb4cad3f63\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Guest.Diego\.android\build-cache\77f11d1744b50468d45a79656baea24a7d4a069a\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Guest.Diego\.android\build-cache\6ae4fb227578a02d13b019e3c695493fc3ee8c2b\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Guest.Diego\.android\build-cache\fb58100df20d618bd72c76b3086d5c35a2ec7a77\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Guest.Diego\.android\build-cache\808720fdb78086278c35ef912d55bbb858197fca\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Guest.Diego\.android\build-cache\0c38863fc9d555770fa898c2d052224b75944332\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Guest.Diego\.android\build-cache\644d5f75d6cdf3facedcc817f6c7470b9575fff4\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Guest.Diego\.android\build-cache\31f61700a1071cb946f2bdf044631e8c9b72ec31\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Guest.Diego\.android\build-cache\8b03468d344fb0915159d0b00ee2a35e9475c342\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Guest.Diego\.android\build-cache\228154585d2cd48d52197a67f468df72c8b9f44a\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Guest.Diego\AndroidStudioProjects\Unomap\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Guest.Diego\.android\build-cache\d656852003b9ebe7cdf62a854468bd0c7b7a647d\output\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6d2e84932a4eb5b09cd6cdf4094e80ac9375f22c\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:10.2.0] C:\Users\Guest.Diego\.android\build-cache\c25fad67784bfacef8e1a9dcab70c4e8715edd79\output\AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Guest.Diego\.android\build-cache\11c584bfa2e4e77a72ee6fb28e8834524c154dc1\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6c6888de61a23711f991c517314e1478a62a7aff\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\Guest.Diego\.android\build-cache\f2d0631e7fa41200f60d98cd07ce105b220cb9a7\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] C:\Users\Guest.Diego\.android\build-cache\489b49f107a84f779f0936ac4838068bc5ffd4fb\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Guest.Diego\.android\build-cache\28eef7389058ab9cde1b1a38690994e651f8cf5d\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Guest.Diego\.android\build-cache\d656852003b9ebe7cdf62a854468bd0c7b7a647d\output\AndroidManifest.xml:20:22-76
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Guest.Diego\.android\build-cache\d656852003b9ebe7cdf62a854468bd0c7b7a647d\output\AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Guest.Diego\.android\build-cache\d656852003b9ebe7cdf62a854468bd0c7b7a647d\output\AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Guest.Diego\.android\build-cache\d656852003b9ebe7cdf62a854468bd0c7b7a647d\output\AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Guest.Diego\.android\build-cache\d656852003b9ebe7cdf62a854468bd0c7b7a647d\output\AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Guest.Diego\.android\build-cache\d656852003b9ebe7cdf62a854468bd0c7b7a647d\output\AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Guest.Diego\.android\build-cache\d656852003b9ebe7cdf62a854468bd0c7b7a647d\output\AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Guest.Diego\.android\build-cache\d656852003b9ebe7cdf62a854468bd0c7b7a647d\output\AndroidManifest.xml:26:19-91
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6d2e84932a4eb5b09cd6cdf4094e80ac9375f22c\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6c6888de61a23711f991c517314e1478a62a7aff\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\Guest.Diego\.android\build-cache\f2d0631e7fa41200f60d98cd07ce105b220cb9a7\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] C:\Users\Guest.Diego\.android\build-cache\489b49f107a84f779f0936ac4838068bc5ffd4fb\output\AndroidManifest.xml:24:5-67
+MERGED from [net.gotev:uploadservice:3.4.1] C:\Users\Guest.Diego\.android\build-cache\0dc1298abcde22fd89a2f8239db526e8d934a967\output\AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6d2e84932a4eb5b09cd6cdf4094e80ac9375f22c\output\AndroidManifest.xml:24:22-65
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Guest.Diego\.android\build-cache\1a79d00428c26279f0b4db83302730130673af8c\output\AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Guest.Diego\.android\build-cache\1a79d00428c26279f0b4db83302730130673af8c\output\AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Guest.Diego\.android\build-cache\1a79d00428c26279f0b4db83302730130673af8c\output\AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Guest.Diego\.android\build-cache\1a79d00428c26279f0b4db83302730130673af8c\output\AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Guest.Diego\.android\build-cache\1a79d00428c26279f0b4db83302730130673af8c\output\AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Guest.Diego\.android\build-cache\1a79d00428c26279f0b4db83302730130673af8c\output\AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Guest.Diego\.android\build-cache\1a79d00428c26279f0b4db83302730130673af8c\output\AndroidManifest.xml:22:25-87
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Guest.Diego\.android\build-cache\2eb6dbdb6818380b13ef6656c781f7e4b797a5bc\output\AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Guest.Diego\.android\build-cache\2eb6dbdb6818380b13ef6656c781f7e4b797a5bc\output\AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Guest.Diego\.android\build-cache\2eb6dbdb6818380b13ef6656c781f7e4b797a5bc\output\AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Guest.Diego\.android\build-cache\2eb6dbdb6818380b13ef6656c781f7e4b797a5bc\output\AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Guest.Diego\.android\build-cache\2eb6dbdb6818380b13ef6656c781f7e4b797a5bc\output\AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Guest.Diego\.android\build-cache\2eb6dbdb6818380b13ef6656c781f7e4b797a5bc\output\AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Guest.Diego\.android\build-cache\2eb6dbdb6818380b13ef6656c781f7e4b797a5bc\output\AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Guest.Diego\.android\build-cache\2eb6dbdb6818380b13ef6656c781f7e4b797a5bc\output\AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Guest.Diego\.android\build-cache\2eb6dbdb6818380b13ef6656c781f7e4b797a5bc\output\AndroidManifest.xml:24:18-63
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\Users\Guest.Diego\.android\build-cache\099b652eff3ac8caf747de3df0eae2852afd20f2\output\AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\Users\Guest.Diego\.android\build-cache\099b652eff3ac8caf747de3df0eae2852afd20f2\output\AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\Users\Guest.Diego\.android\build-cache\099b652eff3ac8caf747de3df0eae2852afd20f2\output\AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\Users\Guest.Diego\.android\build-cache\099b652eff3ac8caf747de3df0eae2852afd20f2\output\AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\Users\Guest.Diego\.android\build-cache\099b652eff3ac8caf747de3df0eae2852afd20f2\output\AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\Users\Guest.Diego\.android\build-cache\099b652eff3ac8caf747de3df0eae2852afd20f2\output\AndroidManifest.xml:7:18-90
+meta-data#android.support.VERSION
+ADDED from [com.android.support:mediarouter-v7:25.3.1] C:\Users\Guest.Diego\.android\build-cache\abec870ce9f4ba651367538c6b093fbf72c36e90\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:palette-v7:25.3.1] C:\Users\Guest.Diego\.android\build-cache\d44bc3cd160c4ccacf7f7625f5923300989fdeac\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Guest.Diego\.android\build-cache\58b3131e3412b378ec5e75bb70895c8a10387ef6\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:design:25.3.1] C:\Users\Guest.Diego\.android\build-cache\228154585d2cd48d52197a67f468df72c8b9f44a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Guest.Diego\.android\build-cache\29cbadbd3c56ce93c9569cbc02933de7ef0596b0\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Guest.Diego\.android\build-cache\7dd27211f85c5686fd8d2cdcc4978fa567c13236\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Guest.Diego\.android\build-cache\ed3346a256f18cb3781a03bff22d41fb4cad3f63\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Guest.Diego\.android\build-cache\77f11d1744b50468d45a79656baea24a7d4a069a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Guest.Diego\.android\build-cache\6ae4fb227578a02d13b019e3c695493fc3ee8c2b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Guest.Diego\.android\build-cache\fb58100df20d618bd72c76b3086d5c35a2ec7a77\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Guest.Diego\.android\build-cache\808720fdb78086278c35ef912d55bbb858197fca\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Guest.Diego\.android\build-cache\0c38863fc9d555770fa898c2d052224b75944332\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Guest.Diego\.android\build-cache\644d5f75d6cdf3facedcc817f6c7470b9575fff4\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Guest.Diego\.android\build-cache\31f61700a1071cb946f2bdf044631e8c9b72ec31\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Guest.Diego\.android\build-cache\8b03468d344fb0915159d0b00ee2a35e9475c342\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:mediarouter-v7:25.3.1] C:\Users\Guest.Diego\.android\build-cache\abec870ce9f4ba651367538c6b093fbf72c36e90\output\AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:mediarouter-v7:25.3.1] C:\Users\Guest.Diego\.android\build-cache\abec870ce9f4ba651367538c6b093fbf72c36e90\output\AndroidManifest.xml:23:9-47
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Guest.Diego\.android\build-cache\b6c88dcae6537ada732ebc512d84115fb0dc3707\output\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Guest.Diego\.android\build-cache\b6c88dcae6537ada732ebc512d84115fb0dc3707\output\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Guest.Diego\.android\build-cache\b6c88dcae6537ada732ebc512d84115fb0dc3707\output\AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Guest.Diego\.android\build-cache\b6c88dcae6537ada732ebc512d84115fb0dc3707\output\AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Guest.Diego\.android\build-cache\b6c88dcae6537ada732ebc512d84115fb0dc3707\output\AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Guest.Diego\.android\build-cache\b6c88dcae6537ada732ebc512d84115fb0dc3707\output\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Guest.Diego\.android\build-cache\b6c88dcae6537ada732ebc512d84115fb0dc3707\output\AndroidManifest.xml:25:25-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\Guest.Diego\.android\build-cache\c5101e1bf2acc0255585db6ea027b8c971b9cf23\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\0efc98ffa95742fbfd0aac6e5c7dec4e8b9ba128\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\Guest.Diego\.android\build-cache\c5101e1bf2acc0255585db6ea027b8c971b9cf23\output\AndroidManifest.xml:20:22-79
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Guest.Diego\.android\build-cache\11c584bfa2e4e77a72ee6fb28e8834524c154dc1\output\AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Guest.Diego\.android\build-cache\11c584bfa2e4e77a72ee6fb28e8834524c154dc1\output\AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Guest.Diego\.android\build-cache\11c584bfa2e4e77a72ee6fb28e8834524c154dc1\output\AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Guest.Diego\.android\build-cache\11c584bfa2e4e77a72ee6fb28e8834524c154dc1\output\AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Guest.Diego\.android\build-cache\11c584bfa2e4e77a72ee6fb28e8834524c154dc1\output\AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Guest.Diego\.android\build-cache\11c584bfa2e4e77a72ee6fb28e8834524c154dc1\output\AndroidManifest.xml:25:94-118
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Guest.Diego\.android\build-cache\11c584bfa2e4e77a72ee6fb28e8834524c154dc1\output\AndroidManifest.xml:25:19-93
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6c6888de61a23711f991c517314e1478a62a7aff\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\Guest.Diego\.android\build-cache\f2d0631e7fa41200f60d98cd07ce105b220cb9a7\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6c6888de61a23711f991c517314e1478a62a7aff\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6c6888de61a23711f991c517314e1478a62a7aff\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6c6888de61a23711f991c517314e1478a62a7aff\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6c6888de61a23711f991c517314e1478a62a7aff\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6c6888de61a23711f991c517314e1478a62a7aff\output\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6c6888de61a23711f991c517314e1478a62a7aff\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6c6888de61a23711f991c517314e1478a62a7aff\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6c6888de61a23711f991c517314e1478a62a7aff\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6c6888de61a23711f991c517314e1478a62a7aff\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6c6888de61a23711f991c517314e1478a62a7aff\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6c6888de61a23711f991c517314e1478a62a7aff\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\Guest.Diego\.android\build-cache\f2d0631e7fa41200f60d98cd07ce105b220cb9a7\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6c6888de61a23711f991c517314e1478a62a7aff\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6c6888de61a23711f991c517314e1478a62a7aff\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Guest.Diego\.android\build-cache\6c6888de61a23711f991c517314e1478a62a7aff\output\AndroidManifest.xml:32:16-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:32:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:44:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:45:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:46:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Guest.Diego\.android\build-cache\7355e8898e707c64b12248a96bdf97b588ea9a4b\output\AndroidManifest.xml:46:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\Guest.Diego\.android\build-cache\e5a126ae257471a3804f83c1983f46564121b021\output\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\Guest.Diego\.android\build-cache\e5a126ae257471a3804f83c1983f46564121b021\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\Guest.Diego\.android\build-cache\e5a126ae257471a3804f83c1983f46564121b021\output\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\Guest.Diego\.android\build-cache\e5a126ae257471a3804f83c1983f46564121b021\output\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\Guest.Diego\.android\build-cache\e5a126ae257471a3804f83c1983f46564121b021\output\AndroidManifest.xml:6:79-143
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Guest.Diego\.android\build-cache\28eef7389058ab9cde1b1a38690994e651f8cf5d\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Guest.Diego\.android\build-cache\28eef7389058ab9cde1b1a38690994e651f8cf5d\output\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Guest.Diego\.android\build-cache\28eef7389058ab9cde1b1a38690994e651f8cf5d\output\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Guest.Diego\.android\build-cache\1d4d61d21581cac72acd6f8ad3bcd1956ae39ab2\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Guest.Diego\.android\build-cache\1d4d61d21581cac72acd6f8ad3bcd1956ae39ab2\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Guest.Diego\.android\build-cache\1d4d61d21581cac72acd6f8ad3bcd1956ae39ab2\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Guest.Diego\.android\build-cache\1d4d61d21581cac72acd6f8ad3bcd1956ae39ab2\output\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Guest.Diego\.android\build-cache\dd837addf2404ae60e4b7894027d0e02ddfbbdf4\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Guest.Diego\.android\build-cache\dd837addf2404ae60e4b7894027d0e02ddfbbdf4\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Guest.Diego\.android\build-cache\dd837addf2404ae60e4b7894027d0e02ddfbbdf4\output\AndroidManifest.xml:20:20-65
+service#net.gotev.uploadservice.UploadService
+ADDED from [net.gotev:uploadservice:3.4.1] C:\Users\Guest.Diego\.android\build-cache\0dc1298abcde22fd89a2f8239db526e8d934a967\output\AndroidManifest.xml:17:9-21:19
+	android:enabled
+		ADDED from [net.gotev:uploadservice:3.4.1] C:\Users\Guest.Diego\.android\build-cache\0dc1298abcde22fd89a2f8239db526e8d934a967\output\AndroidManifest.xml:19:13-35
+	android:exported
+		ADDED from [net.gotev:uploadservice:3.4.1] C:\Users\Guest.Diego\.android\build-cache\0dc1298abcde22fd89a2f8239db526e8d934a967\output\AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from [net.gotev:uploadservice:3.4.1] C:\Users\Guest.Diego\.android\build-cache\0dc1298abcde22fd89a2f8239db526e8d934a967\output\AndroidManifest.xml:18:13-65
