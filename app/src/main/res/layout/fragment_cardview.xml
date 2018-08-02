@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/colorunomap"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/user_page_relative1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image2"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/profilepicdefault"
+                    app:civ_border_color="#FFffffff"
+                    app:civ_border_width="2dp" >
+
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                <TextView
+                    android:id="@+id/user_page_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15dp"
+                    android:text="@string/app_name"
+                    android:layout_below="@id/profile_image"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#ffffff"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/user_page_relative1"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:id="@+id/user_page_useremail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/test_email"
+                    android:textSize="15dp"
+                    android:textColor="#ffffff" />
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/tick"
+                    android:id="@+id/user_page_emailverified"
+                    android:layout_toRightOf="@id/user_page_useremail"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/user_page_phonenumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/test_phonenumber"
+                    android:textSize="15dp"
+                    android:layout_below="@id/user_page_useremail"
+                    android:textColor="#ffffff"/>
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/front_page"
+            android:alpha="0.1"
+            android:scaleType="fitEnd"/>
+
+        <com.lukedeighton.wheelview.WheelView
+            android:id="@+id/wheelview23"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:wheelColor="#00ff0000"
+            app:rotatableWheelDrawable="false"
+            app:selectionAngle="90.0"
+            app:wheelPosition="right"
+            app:wheelOffsetY="100dp"
+            app:wheelOffsetX="-60dp"
+            app:repeatItems="true"
+            app:wheelRadius="250dp"
+            app:wheelItemCount="8"
+            app:wheelPadding="15dp"
+            app:wheelItemRadius="40dp" />
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/circle_unomapcolor"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/plus"
+            android:scaleType="fitCenter"
+            android:id="@+id/functionxbutton"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="40dp"/>
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

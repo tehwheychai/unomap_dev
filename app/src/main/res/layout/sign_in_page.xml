@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/front_page"
+        android:alpha="0.1"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/activity_main_unomaplogo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/identifyslogo" />
+
+        <TextView
+            android:id="@+id/activity_main_unomaplogoname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activity_main_unomaplogo"
+            android:layout_centerHorizontal="true"
+            android:text="@string/app_name" />
+    </RelativeLayout>
+
+    <TextView
+
+        android:id="@+id/sign_in_page_textview_username"
+        android:text="@string/name"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sign_in_page_edittext_username"
+        android:layout_centerHorizontal="true"
+        android:textSize="14sp"
+        />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@id/sign_in_page_edittext_username"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="#5fe1c2"
+        android:textColor="#5fe1c2"
+        android:inputType="text"
+        android:textSize="14sp"
+        android:layout_above="@+id/sign_in_page_pin_number_textview"
+        android:layout_centerHorizontal="true"
+        android:maxLines="1"
+        />
+
+
+
+
+    <TextView
+
+        android:id="@id/sign_in_page_pin_number_textview"
+        android:text="@string/pin_number"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/user_pin_number"
+        android:layout_centerHorizontal="true"
+        android:textSize="14sp"
+        />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@id/user_pin_number"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="#5fe1c2"
+        android:textColor="#5fe1c2"
+        android:inputType="numberPassword"
+        android:textSize="14sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:maxLength="6"
+        android:maxLines="1"
+        />
+
+    <CheckBox
+        android:id="@+id/sign_in_page_checkbox_rmbme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rmb_me"
+        android:layout_below="@id/user_pin_number"
+        android:layout_centerHorizontal="true"
+        android:textSize="10sp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:text="@string/next"
+        android:id="@+id/sign_in_page_button_signin"
+        android:layout_below="@id/sign_in_page_checkbox_rmbme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#5fe1c2"
+        android:onClick="fingerprint"
+        android:textSize="14sp"
+        android:background="@drawable/rounded_corner2"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/redirect_signup"
+        android:text="@string/redirect"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:onClick="call_sign_up_page"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="14dp"/>
+
+
+
+
+
+</RelativeLayout>

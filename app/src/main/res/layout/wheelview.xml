@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2200ff00">
+    <com.lukedeighton.wheelview.WheelView
+        android:id="@+id/wheelview22"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:wheelColor="#00ff0000"
+        app:rotatableWheelDrawable="false"
+        app:selectionAngle="90.0"
+        app:wheelPosition="left"
+        app:wheelOffsetY="0dp"
+        app:wheelOffsetX="-60dp"
+        app:repeatItems="true"
+        app:wheelRadius="200dp"
+        app:wheelItemCount="14"
+        app:wheelPadding="13dp"
+        app:wheelItemRadius="43dp" />
+
+</RelativeLayout>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorPrimary"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/user_page_relative1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@android:drawable/ic_input_add"
+                    app:civ_border_color="#FFffffff"
+                    app:civ_border_width="2dp" />
+                <TextView
+                    android:id="@+id/user_page_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="@string/app_name"
+                    android:layout_below="@id/profile_image"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#ffffff"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/user_page_relative1"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:id="@+id/user_page_useremail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="10dp"
+                    android:hint="@string/test_email"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/user_page_phonenumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/test_phonenumber"
+                    android:layout_below="@id/user_page_useremail"
+                    android:textColor="#ffffff"/>
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/id1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/userpage_button_addID"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@android:drawable/ic_menu_add"></Button>
+
+            <TextView
+                android:id="@+id/id1_organisation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/userpage_button_addID"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:id="@+id/id1_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/id1_organisation"
+                android:layout_marginLeft="30dp"/>
+        </RelativeLayout>
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/id2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/id1">
+            <Button
+                android:id="@+id/userpage_button_addID2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@android:drawable/ic_menu_add"></Button>
+
+            <TextView
+                android:id="@+id/id2_organisation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/userpage_button_addID2"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:id="@+id/id2_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/id2_organisation"
+                android:layout_marginLeft="30dp"/>
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/id3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/id2">
+            <Button
+                android:id="@+id/userpage_button_addID3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@android:drawable/ic_menu_add"></Button>
+
+            <TextView
+                android:id="@+id/id3_organisation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/userpage_button_addID3"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:id="@+id/id3_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/id3_organisation"
+                android:layout_marginLeft="30dp"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

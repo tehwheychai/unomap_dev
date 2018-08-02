@@ -1,0 +1,209 @@
+<resources>
+    <string name="app_name">Unomap</string>
+    <string name="sign_up_button">Sign Up</string>
+    <string name="sign_in_button">Sign In</string>
+    <string name="unomap_name">Your name in Unomap</string>
+    <string name="name">Username:</string>
+    <string name="rmb_me">Remember me.</string>
+    <string name="email">Email:</string>
+    <string name="password">Password:</string>
+    <string name="retype_password">Re-type Password:</string>
+    <string name="sign_up_page">Welcome, This is the sign up page</string>
+    <string name="hint_email">Email address</string>
+    <string name="hint_phone_number">Handphone number</string>
+    <string name="phone_number">Phone number:</string>
+    <string name="hint_username">Full name as in NRIC</string>
+    <string name="hint_password">Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="hint_name"></string>
+    <string name="camera">Camera</string>
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="ocr_header">Click &quot;Detect Text&quot; to detect text</string>
+    <string name="read_text">Detect Text</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="ocr_success">Text read successfully</string>
+    <string name="ocr_failure">No text captured</string>
+    <string name="ocr_error">"Error reading text: %1$s"</string>
+<string name="test_email">info@unomap.com</string>
+    <string name="test_phonenumber">012-3456789</string>
+    <string name="fingerprint">Fingerprint</string>
+    <string name="pin">PIN</string>
+    <string name="security_enquiry">Please set up</string>
+    <string name="pin_number">Enter PIN:</string>
+    <string name="retype_pin_number">Re-enter PIN:</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="terms_and_condition_text">1. Testing line 1 \n2. Testing line 2</string>
+    <string name="private_policy_text">Your privacy is our utmost concern. The privacy policy of Unomap explains how we manage and keep your personal information when you sign up and use our services. It also describes the choices available to you regarding the use of, your access to, and how to update and correct your personal information. Please read it carefully before you sign up.\n\n1. Who are we\nWe are Unomap Technology (M) Sdn Bhd, Address (company number X), a.k.a. Unomap.\n\nOur general email address is info@unomap.com.\n\nIn this policy, “we”, “us”, “our” mean Unomap; while “third party” means anyone other than you and us, which could be another person or organization.</string>
+    <string name="pp2">\n2. Our principles\nWe take your privacy very seriously. Every part of our services, inside out, is designed with privacy at their heart. We commit to maintaining your trust and pledge the followings:</string>
+    <string name="pp2a">Keep you informed of our privacy practices and any future change on them happened to keep privacy upheld.</string>
+    <string name="pp2b">Keep your information safe. At the best we can, that matches industry standards, we implemented security tools designated to safeguard your information.</string>
+    <string name="pp2c">Any sharing of your information with third parties from our end will be made at your consent. In accordance to this Privacy Policy.</string>
+    <string name="pp22">\nIf you have any questions about the security of your personal information with Unomap, kindly contact us at support@unomap.com.</string>
+    <string name="pp3">\n3.	Information collection\nInformation about you we collect at your account creation:</string>
+    <string name="pp3a">Name as per NRIC</string>
+    <string name="pp3b">Email address</string>
+    <string name="pp3c">Contact number</string>
+    <string name="pp33">\nInformation that we collect automatically when you use our services:</string>
+    <string name="pp33a">Log information of your use of our services, including the time of usage, IP address, browser type, pages viewed and page you visited before landing to our online services.</string>
+    <string name="pp33b">Device information which you used to access our services, including the hardware model, operating system, unique device identifiers and mobile network information.</string>
+    <string name="pp33c">Location information may also be collected when you use our services.</string>
+    <string name="pp33d">Other collection made by us and/or third parties such as Cookies, that are stored on your hard drive or in device memory that help us improve our online services and your experience, and to see which areas and features of our online services are popular. You can anyway disable cookies.</string>
+    <string name="pp333">\nAdding of additional personal information:
+        \nWhen you choose to add information to your account in the app, we collect surface details of your identity document (for example your NRIC number, passport number, student ID). This information is collected to have your provided additional identities verified by your identity providers (IdPs). With the verifies information, you will then be able to use them in the digital form through Unomap, and only you can use them as they are verified for your account only.
+        \n\nWhen you back up your account to your own cloud:
+        \nWe store an encrypted key in the cloud you choose for back up so that you can recover access to your account on a different phone.
+        \n\nWhen you lose access to your Unomap account (for example, you have lost your mobile phone, can’t log in and need to recover access to it):
+        \nWe will retrieve the encrypted key from your cloud to restore your link to your account.
+        \nWe will request you enter your PIN and key-in OTP sent to your email and/or mobile number.
+        \nIf you forget your PIN we will ask you for your mobile number and other possible verifiers attached to your Unomap account.</string>
+    <string name="pp333a">To verify your identity and check you are the true holder of the Unomap account and grant you access to it again or to reset your PIN.</string>
+    <string name="pp333b">While we verify your identity we keep the information but our Security and Customer Support Team can access it. We can access this information for up to 7 days after verification.</string>
+    <string name="pp4">\n4.	Sharing your personal information with others
+        \nUnomap’s core principles are that it is not our business model to sell, transfer or share outside the company any of the personal information used to set up your account or your user activity information. There are though some situations where we may share information about you as follows or as otherwise described in this Privacy Policy:</string>
+    <string name="pp4a">with Unomap partners as part of the delivery of our Services to you:
+        \nwith affiliates, consultants, and other service providers when we believe it will enhance the Services and products we can provide to you or for legal and routine business reasons. For example, we may share selected details when checking your identity for idicators of fraud during sign up or when providing alerts. These parties are authorized to use your personal information only as necessary to provide these services to us.</string>
+    <string name="pp4b">as required or permitted by law, such as to disclose personal data in response to lawful requests by public authorities, including to meet national security or law enforcement requirements, comply with a subpoena, bankruptcy proceedings, or similar legal process:
+        \nGiven that we believe in good faith that such disclosure is no more than necessary to comply with legal requirements. We may share information with third parties where appropriate to protect against fraud or verify or enforce our terms of use, our other rights, or other applicable policies.</string>
+    <string name="pp4c">We may also share aggregated or de-identified information, which cannot reasonably be used to identify you.</string>
+    <string name="pp4d">If Unomap is sold or combined with another business.
+        \n\nUnomap will agree to the sale or being combined with another business if the new business commits to the core Unomap principles of data privacy. While we are negotiating with the company buying or combining Unomap with their own business, they won’t be able to access your encrypted personal information but Unomap may provide anonymized statistical information.</string>
+    <string name="pp5">\n5.	Your rights</string>
+    <string name="pp5a">Access rights: You are entitled to see the personal information we hold about you, and medium to which your personal information is linked. .
+        \nAccess can be done through Unomap app and Unomap web platform.</string>
+    <string name="pp5b">Correction rights: You are entitled to correct personal information we hold about you that you found inaccurate and/or outdated.
+        \nYou can update your information we hold at any time through your account, where certain updates will require your provision of relevant document, while some will be done automatically at IdPs end linked to us and your account.</string>
+    <string name="pp5c">Deletion rights: in certain circumstances you are entitled to ask us to delete the personal information we hold about you through Unomap app or website.</string>
+    <string name="pp5d">Objection rights: in certain circumstances you are entitled to object to Yoti processing your personal information.
+        \nYou can do so by emailing us at support@unomap.com.</string>
+    <string name="pp5e">Cookies: Most web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove or reject browser cookies. Please note that if you choose to remove or reject cookies, this could affect the availability and functionality of our online services.</string>
+    <string name="pp5f">Acknowledgement: We may change this Privacy Policy from time to time. If we do, we will let you know by appropriate means such as by posting the revised policy on this page with a new “Last Updated” date. All changes will become effective when posted unless indicated otherwise. If we make any material changes we will notify you by email (sent to the e-mail address specified in your account) or by means of a notice on this website prior to the change becoming effective. We encourage you to periodically review this page for the latest information on our privacy practices</string>
+    <string name="pp6">\n6.	Contact us
+        \nIf you have questions or concerns about this Privacy Policy, please email info@unomap.com, or contact us through our website www.unomap.com.</string>
+    <string name="tc">Welcome to Unomap. The followings are Unomap\'s Terms of Use (\"Terms\"). These Terms are important and must be accepted to start using our App. Please read carefully these Terms, and other Terms made available by us from time to time. By accepting the Terms and using our App you\'re agreeing to be bound by these terms and conditions. By continuing to access or use the App, you confirm your acceptance of the revised Terms and all of the terms incorporated therein by reference. We encourage you to review the Terms frequently to ensure that you understand the terms and conditions that apply when you access or use the App. If you do not understand or do not wish to be bound by these terms and conditions, you should not register for a Unomap account. You should also read our privacy policy. These Terms govern your access and use of the App.
+        In this Terms, \"we\", \"us\", \"our\" mean Unomap; while \"third party\" means anyone other than you and us, which could be another person or organization.</string>
+    <string name="tc1">\n1. About Unomap App (the App)\nUnomap digitalize your official identities, improving the efficiency of sharing and managing your identities over a mobile App. Identities added and usable with Unomap App are verified, and thus it works like an identity representation and proving tool. All Unomap App basic features are free of charge for users, besides of future upcoming optional premium services.\nUnomap App is designed to ease your work to provide identity information to service providers, renew your identity document, cross refer your identity across systems and platforms. It eventually allows users to perform online identity verification and authentication, eliminate the needs to present before a service provider to provide identity information, which is a time-consuming task. More importantly, Unomap embraces and encourages “open data” model with businesses to better serve end users through our technology.</string>
+    <string name="tc2">\n2.	Privacy Policy\nPlease refer to our Privacy Policy http://www.unomap.com/privacy-policy for information about how we collect, use and disclose information about you.</string>
+    <string name="tc3">\n3.	Eligibility\nProvided you accept and continue to comply with these terms and conditions, Unomap grants you a non-exclusive, non-transferable licence to use our App that can be revoked at any time.Our App is not targeted toward or intended for use by anyone under the age of 12. To use our App, you must be (and you warrant to us that you are):\n</string>
+    <string name="tc3a">18 years of age or over;\n   or</string>
+    <string name="tc3b">12 years of age or over and have permission to use our App from your parent or legal guardian.</string>
+    <string name="tc33">\nIf we believe or verify that you have not told us your true age (or have not received parental consent if you are aged between 12 and 17), we may suspend your use of our App until you have provided us with acceptable proof of age (or parental consent).We advise parents and guardians who allow their children to use our App that it is important to communicate with their children about their safety online.</string>
+    <string name="tc4">\n4.	Signing up, Signing in and Interface Preferences\nIn order to access and use certain areas or features of the App, you will need to register for a Unomap account. By creating an account, you agree to (a) provide accurate, current and complete account information about yourself, (b) maintain and promptly update from time to time as necessary your account information, (c) maintain the security of your password and accept all risks of unauthorized access to your account and the information you provide to us, and (d) immediately notify us if you discover or otherwise suspect any security breaches related to the App, or your account.
+\n\nWhen registering for an account or adding your first identity and/or identity documents, you will be required to complete a liveness test to prove you are a real live person. This test could involve, for example, taking a selfie, smile, and blink on the camera (you will see instructions for this at the time). Other authentication steps may be required, such as PIN entry and/or fingerprint access.
+\n\nYou may also choose to add a genuine and valid identity document (like a passport or driving licence) to your Unomap App so you can share certain pieces of information with a third party, for example, sharing your student ID in order to enjoy student discount. Your identity document itself will not be shared with the third party with whom you have chosen to share your data using Unomap.
+\n\nAll account creation instructions given in our App during the account creation process (and any amendments or updates to those processes) also form part of these terms and conditions.
+\n\nWhile you\'re setting up your account, adding information to it or recovering access to your account, Unomap will be able to see the information you enter so that we can verify it. We will keep this information securely in our server that only you with your device can have access to them.
+\n\nUnomap will store a biometric template of your selfie to verify that it is always you trying to access your Unomap account. A biometric template is a digital reference of distinct characteristics that were extracted from your facial photo and, for your security, this is done in such a way that the original photo cannot be retrieved from this template, but can be used. Unomap also securely stores your actual photos so that in certain circumstances they can be rendered on a receipt for human facial recognition purposes.
+        \n\nAfter the information is entered and verified your information will be separately encrypted and Unomap will be unable to see it or access it. Only you will have the encryption keys, stored in your mobile phone or other devices, so only you can access your account. It is your responsibility to keep your mobile phone and other devices safe, and to prevent others from having unauthorised access to them.</string>
+    <string name="tc5">\n5.	Using your Identity in Unomap\nYou as the owner of identities inside your Unomap App will decide when you want to use the App to identify yourself to a third party, or to send or request personal information (as may be allowed by the functionality of the version of our app that you are using). Whenever an organisation or other individual asks you to share information through your Unomap, you always get to decide whether to accept or not. Unomap implements “minimum required information” policy in allowing third parties who use our services to only ask for the minimum information required, and reserves the right not to do business with third parties who ask for more information than they need.
+\n\nWhenever you share information with a third party, you and the third party will each receive a notification about the sharing. The notification and record will be available in your Unomap account.
+\n\nUnomap creates and encrypts a master log which contains details of the sharing for both parties. This master log is securely stored on our servers and we cannot access or view it unless either you or the third party provides us with their own record containing the encryption key needed to access the information.
+        \n\nWe may allow you to add and accept to your Unomap account attributes from certain third parties, for example university degrees, professional qualifications, employer references, landlord references and so on. You must only add or accept third party attributes to your Unomap account that are current, relevant, genuine and accurate – you cannot add and accept any non-genuine attributes as automated verification will take place at the back of the system, and non-genuine attributes will not be approved if they fail the automated verification check. We may suspend your use of our App and/or terminate these terms and conditions if we know or reasonably suspect you to have not complied with the previous sentence.</string>
+    <string name="tc6">\n6.	Closing/Deleting your Unomap App account\nYou can close your Unomap account at any time by selecting the \"Delete Account\" option in \"Settings\" menu of the App. Standard Unomap verification/authentication step will be required to make sure that you are really the account owner wanted to shut down your Unomap account.
+\n\nWe reserve the right to immediately suspend your account and access to our App and to terminate these terms and conditions, and therefore your right to use the App, without responsibility or liability to you if, in our sole opinion, you are not complying with these terms and conditions, or if you disrupt our App or if your continued use of our App is harmful to any party.
+\n\nWe reserve the right to terminate some or all of our services, and therefore your right to use the App, at any time at our discretion and without responsibility to you on providing you with at least 30 days\' prior notice through the App.
+\n\nIf you or we close your account, you will lose access to your Unomap account and to all of the information and services associated with it. We may need to keep your logs for regulatory reasons. Any third party you shared information with through Unomap will still have those details (in their own logs) after you have closed your Unomap account.
+\n\nOnce your account is closed, we will delete from our server all identifying attributes and the documents they were sourced from, all biometrics you used, all other \'non-identity\' attributes (such as email), any associations to pages and applications created (the pages and applications themselves are not deleted), and all ‘remember me’ IDs (the IDs that identify a returning user to an integrated service).
+        \n\nWhether your Unomap account is closed by you or by us, you should delete the App from your device promptly following closure of your account.</string>
+    <string name="tc7">\n7.	Intellectual property\nWe are very proud of our App, and, as we are sure you can understand, it contains some valuable intellectual property, trade knowledge and other confidential information. This means that you must not do any of the following.
+\n\nCopy, sell, give, assign, or market our App to any third party.
+\n\nModify, reuse, disassemble or decompile our App or any part of it.
+\n\nReverse engineer our App or any part of it (this means analyse our App in order to work out its function or structure, whether with or without the intention of re-creating or modifying it).
+\n\nTranslate or create derivative works (adaptations) based on our App or any part of it.
+        \n\nFor the purposes of these terms and conditions, only Unomap owns or is the licensee of all intellectual property, know how, trade knowledge and other confidential information in or arising out of or in connection with our App.</string>
+    <string name="tc8">\n8.	Availibility of the Unomap App\nWe aim to ensure that you are able to access and use our App at all times. However, your use of our App may from time to time be interrupted by maintenance, repairs or updates or other factors which we may not be able to foresee and control and we cannot guarantee to you that it will always be available. We will do our best to notify you of such situations as soon as possible after we become aware of them, but we will not be liable under any circumstances for any loss or damage caused as a result of such interruption of availability of our App, other than as spelled out below at section 10 (Our responsibility to you).</string>
+    <string name="tc9">\n9.	Your responsibilities of using Unomap App\nYou are at all times responsible for making informed decisions about sharing your information with third parties and to consider the implications of doing so. Unomap has no control over what third parties do with the information you choose to share with them through the App and therefore accepts no responsibility or liability for information misuse on their part.
+\n\nIf you choose to use Unomap to share your information with a third party in order to access or interact with services they provide (such as buying or selling online), you should also review their terms of use, privacy policy or any other terms governing your use of such third party sites, services or resources, and make sure you comply with them. Unomap has no control over the contents or performance of any third party sites, services or resources, and accepts no responsibility for them, for any loss or damage that may arise from your use of them, or for any refusal by such third parties to provide you with products or services.
+\n\nYou are responsible for making sure that all your information associated with your Unomap account is accurate and up to date.
+\n\nUnomap sends notification and log to both parties when you share your identity using the App. These logs, and the attributes presented in them, should remain private to the two counterparties unless one is a victim of the other\'s fraud / mistreatment at which point the victim can share the receipt with law enforcement (but not the general public).
+        \n\nWe trust you to use our App sensibly and lawfully, but please be aware that you must:</string>
+    <string name="tc9da">not use or interact with our App if you intend to commit any unlawful, fraudulent, dishonest, anti-social, unethical, abusive, threatening or invasive behaviour;</string>
+    <string name="tc9db">use our App only for your private use and non-commercial purposes (except as may be expressly allowed by the functionality of the App or otherwise allowed by us in writing);</string>
+    <string name="tc9dc">not damage, interfere with or disrupt the integrity or performance of our App in any way;</string>
+    <string name="tc9dd">not offer in any manner, sublicense, lease, sell or otherwise make available our App or any of its services to any third party without our prior written consent;</string>
+    <string name="tc9de">not use or interact with our App in any unlawful, fraudulent or dishonest way or for any improper purpose. In particular, it is a criminal offence to create, possess and/or use fraudulent, forged, false or improperly obtained documentation. It is illegal to impersonate, or pretend you are, someone else, for example by using their identification documents. If we know of or suspect activity by you that contravenes this section, we reserve the right to suspend your Unomap account, to report you to the relevant authority or agency, or to take such other action as we in our discretion believe is necessary for the protection of our users and/or our business or reputation, and we will keep a copy of your data for further anti-fraud procedures or as may be required by law. If false or inaccurate information is provided and fraud is identified, details may be passed to fraud prevention agencies to prevent fraud, money laundering and other criminal offences</string>
+    <string name="tc99">\nIf we know or have reasonable grounds to suspect that activity by you breaches this section, we reserve the right to take all appropriate action to investigate and to deal with the consequences of a breach. Please also refer to our Misuse Policy.</string>
+<string name="tc10">\n10.	Our responsibility (liability) to you\nNothing in these terms and conditions excludes or limits our liability either: (a) for your death or personal injury if it’s caused by our negligence; or (b) our fraud or fraudulent misrepresentation (this means if we deliberately and knowingly make a false statement or representation with the intent to deceive or without belief in its truth or recklessly as to its truth). We will also take responsibility where we are required to by applicable law.
+\n\nAside from the circumstances listed above, if we do not comply with these terms and conditions, we will be responsible for loss or damage you suffer that is a foreseeable result, to you and to Unomap, of our breach or our negligence (that is, any act or omission by us which falls short of a standard to be expected of a reasonable person). However, we are not responsible for any other loss or damage you suffer that is not reasonably foreseeable. Loss or damage is foreseeable if it was an obvious consequence of our breach or if it was contemplated by both you and us at the time you downloaded the App.
+    \n\nUnomap is not under any circumstances liable to you for:</string>
+    <string name="tc10da">any losses that were not caused by Unomap;</string>
+    <string name="tc10db">any business losses or liabilities: including loss of profit; loss of income; loss of goodwill (this means the good reputation enjoyed by a legal entity); loss of anticipated savings; loss of data; loss of business; business interruption or loss of business opportunity, however caused; or</string>
+    <string name="tc10dc">any data breaches by third parties with whom you chose to share information or a Yoti Connection.</string>
+    <string name="tc1010">\nIf you breach these terms and conditions, we are not liable to you for any loss or damage you may suffer because of your breach.
+\n\nFrom time to time we might need to update our App, for example, to improve the services we offer to you or for security reasons. We reserve the right to update, modify or terminate our App or your access to it for any reason, without notice, at any time, and without any legal responsibility to you. To use the most up-to-date functionality of our App, you must download any updates we make available. You will be responsible for any loss or damage you may suffer by continuing to use an outdated version of the App. We do not guarantee that our App will work with all devices and operating systems and we are not responsible for maintaining the compatibility of our App with all updated or new operating systems and devices.
+\n\nWe hope it never happens, but it is possible that something we have no control over might happen which makes it impossible for you to use some or all of the services provided through our App, such as a strike, riot or natural disaster. Although it is unlikely that this will happen, if it does we will try to inform you about it and to minimise any disruption to your use of our App, but we will not be liable to you for any loss of functionality or use.
+    \n\nNothing in these terms will affect your legal rights.</string>
+    <string name="tc11">\n11.	Other legal points around terms and conditions\nYour rights or obligations under these terms and conditions cannot be transferred, assigned, sublicensed, subcontracted, dealt in any other manner without our prior written approval. No other person has any right to enforce any of these terms and conditions.
+        \n\nWe may change or add to these terms and conditions from time to time, for example to reflect any changes:</string>
+    <string name="tc11da">in our policies or relevant laws and regulatory requirements;</string>
+    <string name="tc11db">in the functionality of our App;\n    or</string>
+    <string name="tc11dc">imposed on us by a third party.</string>
+    <string name="tc111">
+\n\nIf we do make any changes, we will tell you and direct you to the revised terms and conditions the next time you use our App. If you do not understand or agree with the revised terms and conditions, you should stop using our App and close your account (in line with section 6 on closing/deleting your Unomap account). We will always post the most current version of the terms and conditions on our website and our App.
+\n\nNo other change to these terms and conditions shall be valid.
+\n\nEach of these terms and conditions operates separately, meaning that if a court or other relevant authority decides that any term or condition cannot be enforced, the others will still remain in full force and effect.
+\n\nIf we do not enforce any of our rights under these terms and conditions, this failure does not mean that we cannot or will not decide to enforce that right at a later point.
+\n\nSubject to any mandatory requirements of your local law that override this paragraph, these terms and conditions are governed by Malaysian law. This means Malaysian law applies to any dispute or claim arising from these terms and conditions or your use of our App (whether contractual or non-contractual). Subject to any mandatory jurisdiction rules in your local law that override this paragraph, you and we can bring legal proceedings in respect of these terms and conditions in the Malaysia courts.
+\n\nIf you have a dispute with us, contact us at support@unomap.com and try to resolve the dispute informally. If you and we cannot resolve a dispute informally, you can submit it through a formal and legal channel.
+        \n\nThe English language version of these terms and conditions prevails.</string>
+    <string name="tc12">\n12.	Contact us\nIf you have questions or concerns about this Privacy Policy, please email support@unomap.com, or contact us through our website www.unomap.com.</string>
+    <string name="dash">-</string>
+    <string name="private_policy">Privacy Policy</string>
+    <string name="terms_and_condition">Terms and Conditions</string>
+    <string name="info1">By continuing, you agree to   </string>
+    <string name="info_click1"> Unomap\'s Terms and Conditions</string>
+    <string name="info2"> and </string>
+    <string name="info_click2">Privacy Policy</string>
+    <string name="verified">Verification Successful</string>
+    <string name="verified_failed">Verification Failed</string>
+    <string name="verified_info1">A verification code has been sent to the phone number</string>
+    <string name="verified_info2">Please enter the verification code in the sms. </string>
+    <string name="verified_code">Verification code:</string>
+    <string name="verify">Verify</string>
+    <string name="desc_fingerprint">Please place your fingertip on the scanner to verify your identity</string>
+    <string name="note">(Fingerprint sign in makes your app login much faster. Your device should have at least one fingerprint registered in the device settings)</string>
+    <string name="title_activity_home">Fingerprint</string>
+    <string name="activity_home_desc">You have successfuly logged in with fingerprint authentication</string>
+    <string name="activity_home_note">Close and re-open the app to see the fingerprint auth screen again</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_fingerprint">One-touch Sign In</string>
+    <string name="qr">Nothing to read</string>
+    <string name="university">University</string>
+    <string name="university_card_no">Card no.</string>
+    <string name="university_faculty">Faculty</string>
+    <string name="university_course">Course</string>
+    <string name="university_period">Period</string>
+    <string name="uni_hint">Name of your university</string>
+    <string name="uni_card_no_hint">Matric card number</string>
+    <string name="uni_faculty_hint">Name of your faculty</string>
+    <string name="uni_course_hint">Full name of your course</string>
+    <string name="uni_period_hint">Course period (eg: 2017-2020)</string>
+    <string name="id_issuer">Organisation</string>
+    <string name="id_card">ID</string>
+    <string name="id">Identification</string>
+    <string name="id_logo">Logo</string>
+    <string name="id_expiry">Period</string>
+    <string name="id_add">Add ID</string>
+    <string name="unomap_splash">Your Identity, Under One Roof.</string>
+    <string name="bullet_a">a)</string>
+    <string name="bullet_b">b)</string>
+    <string name="bullet_c">c)</string>
+    <string name="bullet_d">d)</string>
+    <string name="bullet_e">e)</string>
+    <string name="bullet_f">f)</string>
+    <string name="redirect">No account yet? Sign up here.</string>
+    <string-array name="brew_array">
+        <item>University of Malaya</item>
+        <item>HELP University</item>
+        <item>Others</item>
+    </string-array>
+    <string name="university_1">University of Malaya</string>
+    <string name="university_2">HELP University</string>
+    <string name="university_Others">Others</string>
+</resources>
+

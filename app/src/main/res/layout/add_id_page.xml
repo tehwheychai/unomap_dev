@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:id="@+id/line1"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:text="@string/id"/>
+
+    <EditText
+        android:id="@+id/id_identification"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+        <ImageButton
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:background="@drawable/globe"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:id="@+id/line2"
+        android:layout_below="@id/line1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:text="@string/id_expiry"/>
+
+        <EditText
+            android:id="@+id/id_period"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:inputType="text"/>
+
+        <ImageButton
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:background="@drawable/globe" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:id="@+id/line3"
+        android:layout_below="@id/line2"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:text="@string/id_issuer"/>
+
+        <EditText
+            android:id="@+id/id_issuer"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:inputType="text"/>
+        <ImageButton
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:background="@drawable/globe" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:id="@+id/line4"
+        android:layout_below="@id/line3"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:text="@string/id_card"/>
+
+        <EditText
+            android:id="@+id/id_number"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:inputType="text"/>
+        <ImageButton
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:background="@drawable/globe" />
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:id="@+id/addID_imgView"
+        android:layout_width="250sp"
+        android:layout_height="200sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50sp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addID_camera"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/camera"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addID_button"
+        android:text="@string/id_add"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"/>
+
+
+</RelativeLayout>
